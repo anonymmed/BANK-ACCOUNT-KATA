@@ -30,3 +30,24 @@ In order to check my operations
 As a bank client
 I want to see the history (operation, date, amount, balance) of my operations
 
+### How to use
+
+##### Deposit
+deposit : POST request to http://localhost:8080/deposit
+body should be json with the format : 
+{
+"amount" : x
+}
+
+
+##### Withdraw
+deposit : POST request to http://localhost:8080/withdraw
+body should be json with the format : 
+{
+"amount" : x
+}
+
+###### x is a decimal digit
+
+##### History
+deposit : GET request to http://localhost:8080/history
